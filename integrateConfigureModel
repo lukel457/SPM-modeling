@@ -1,1 +1,19 @@
-first commit here
+The Integrate and Configure Model involves using pre-exisitng modules, code, algorithms and tools to build the project without coding at the finer level as much. The coder can use any resources available to construct the program instead of modelling and writing it from scratch. This is a much less structured way that uses the specs to define the modules needed.
+
+CURSE will need the following things addressed over the project timeline:
+  1. Database of users (100 students, 10 faculty, 1 admin)
+  2. Database of courses (CRN, course names, times, instructors)
+  3. Three types of users (student – can register, can see available courses and their own schedule;
+      instructor – can see available courses and their own course roster; admin – can see everything,
+      can edit courses/users/schedules)
+  4. Should include: multiple semesters, print-out of schedule, scheduling preferences
+  
+  Using these specs, the coder knows that it can draw on resources to create classes for the student that are preconstructed, databases that are prebuilt for the system, and algorithms to automatically do the computation work within the program.
+  After finding the modules, the coder will have to configure the pieces together to make a functioning program.
+  
+  Module 1: The Class Structure
+  
+  Module 2: The Databases
+  
+  Module 3: Algorithms
+  
