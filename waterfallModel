@@ -9,3 +9,32 @@ CURSE will need the following things addressed over the prject timeline:
   4. Should include: multiple semesters, print-out of schedule, scheduling preferences
 
 The waterfall process method is the process of working on and completing a project before ever releasing it to the customer.  In this method each step of the design process is completed sequentially with breaks for testing and revising.  The first step of this method is gathering requirements and stating specific functionalities of the program.  This is usually done by speaking with the customer to see what it is they need to be accomplished by the program.  In the case of the CURSE system the requirements that the customer would have would be a database of users, a database of courses, different user types, and various scheduling functionalities.  Based on the needs of the customer we now have specifics that the program needs to accomplish.  With this in mind we can make a basic model of our registration system.  The first step would be designing a database to hold all of the student/instructor/admin information such as name and registered classes.  Next a similar database would be created for classes and their respective information.  Next problem to solve would be having different types of users with different permissions.  This can be accomplished using inheritance from a base class to allow different permissions based on the public/private/protected functions and variables.  Finally a scheduling system needs to be fleshed out.  According to the customer the scheduling guidelines need to include preferences and checks for errors.  With all the requirements laid out we can begin the actual programming to accomplish these goals.  With each new addition to the program, tests can be run to verify the functionality of each module.  If the user database is completed but will only hold student objects and not instructor objects, the design of the database needs to be reevaluated.  After each module of the program is tested and found to be functional, all of the modules can be combined.  As before, tests need to be ran to verify that there were no errors caused when combining each part of the program.  If there are problems when combining the modules then we need to go back in the design process and start again to address these issues.  If the testing of the combined modules proves to be successful and meets all of the requirements of the customer, it can be released.  The customer will then use it in real situations and come back with feedback regarding bugs and or additional features that need to be added.  This could be considered the final product based on if the customer is satisfied.
+
+1)	Speak with Customer
+  a.	Find out design requirements, criteria, specs that have been provided above
+2)	Based on criteria, formulate problems to solve
+  a.	Need to create an interface that can use the databases to create schedules for teachers and students with one admin who controls.
+3)	Using the basic model, it is time for Abstraction
+  a.	Design ways to solve the problem(s) defined above
+    i.	CURSE needs to hold students in a database, so it is established that a database of students will be needed. 
+    ii. CURSE also needs a database for classes with their information.
+    iii. Curse will need an interface that can be logged in to and then used to create schedules based on user type.
+4)	Build the final product step by step
+  a.	Design and build the personnel database. This includes names, majors/department, etc…
+  b.	Design and build the class registration database. This includes all the available CRN codes, times for the classes, teachers, etc…
+  c.	Design the class structure for the program. It becomes obvious that the program needs a class that can instantiate an admin,        teacher, or student.
+  d.	The functionality of each user type must then be implemented. This includes the admin’s ability to see everything and manipulate schedules, the teacher’s ability to see their classes and rosters, and a student’s ability to pick classes. 
+  e.	Guidelines must then be implemented. This includes a schedule preference filter for students, safeguards against overriding and invalid registrations for students and admins, and multiple semesters in the database which adds another layer of complexity. 
+5)	Test the design
+  a.	Tests will be required for each user type
+    i.	Student – add classes, no overlap, no override, show up on roster, print schedule
+    ii.	Teacher – see roster and classes with time, print schedule
+    iii.	Admin – can see everything displayed correctly, can alter student schedule, can alter teacher schedule, changes are reflected everywhere
+  b.	If test determine product is inadequate, then the design process begins again. If something fundamental was never addressed, the process could go back to the abstraction or even problem formulation.
+6)	The Customer can beta test the design
+  a.	“Real world data” can now be used as the Customer sets up a test environment and uses the program for real. 
+  b.	The customer then can decide if it is adequate of can offer feedback and return it to the coders. They will work to fix bugs in the design phase and finalize a product.
+7)	The product is complete
+
+
+Using this step by step instruction manual, the CURSE system can be created. 
