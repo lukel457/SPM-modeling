@@ -10,10 +10,10 @@ CURSE will need the following things addressed over the prject timeline:
   
   These specs can be broken down into 4 main parts; the databases, the user type structure, the menu and basic functionality, and the extra functions for more complex work. These define the 4 versions of the project to follow.
   
-  Version 1: Database Creation
+  Version 1: A very basic system would be created first that will make student objects and allow them to sign up for classes.
   
-  Version 2: User Class Structure
+  Version 2: Different classes will be made using inheritance to allow different permissions.
   
-  Version 3: Basic Student Sign Up
+  Version 3: Scheduling process including error checks, priority, and preference options. 
   
-  Version 4: Admin Control, Printouts, Filters, Etc...
+  Version 4: Things that need to be added in this version would be print out of schedules, preferences, and any other requirements not addressed by this point
