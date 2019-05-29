@@ -1,1 +1,9 @@
-first commit
+The waterfall method is a thorough and concise timeline and plan to complete a project. It always starts with understanding the problem and the requirements needed to complete the task. Once the problem is defined, the coder begins building the design step by step. Here we have defined our modelling style and know we must build an outine.
+
+CURSE will need the following things addressed over the prject timeline:
+  1. Database of users (100 students, 10 faculty, 1 admin)
+  2. Database of courses (CRN, course names, times, instructors)
+  3. Three types of users (student – can register, can see available courses and their own schedule;
+      instructor – can see available courses and their own course roster; admin – can see everything,
+      can edit courses/users/schedules)
+  4. Should include: multiple semesters, print-out of schedule, scheduling preferences
