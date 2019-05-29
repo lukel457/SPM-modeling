@@ -1,1 +1,19 @@
-first commit here as well
+In an Incremental Model, the finer details are ignored, and preset sections of the project will be planned out based on functionality. In each phase, the program takes on a new high-level functionality that the last level did not possess. The number of incremental phases can be determined using the specs.
+
+CURSE will need the following things addressed over the prject timeline:
+  1. Database of users (100 students, 10 faculty, 1 admin)
+  2. Database of courses (CRN, course names, times, instructors)
+  3. Three types of users (student – can register, can see available courses and their own schedule;
+      instructor – can see available courses and their own course roster; admin – can see everything,
+      can edit courses/users/schedules)
+  4. Should include: multiple semesters, print-out of schedule, scheduling preferences
+  
+  These specs can be broken down into 4 main parts; the databases, the user type structure, the menu and basic functionality, and the extra functions for more complex work. These define the 4 versions of the project to follow.
+  
+  Version 1: Database Creation
+  
+  Version 2: User Class Structure
+  
+  Version 3: Basic Student Sign Up
+  
+  Version 4: Admin Control, Printouts, Filters, Etc...
