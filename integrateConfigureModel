@@ -11,10 +11,20 @@ CURSE will need the following things addressed over the project timeline:
   Using these specs, the coder knows that it can draw on resources to create classes for the student that are preconstructed, databases that are prebuilt for the system, and algorithms to automatically do the computation work within the program.
   After finding the modules, the coder will have to configure the pieces together to make a functioning program.
   
-  Module 1: The Class Structure //I'll leave this as is because I feel the classes are something we should create.
+  Module 1: The Class Structure.
+  It is not necessary to have a prebuild class structure as it would be relatively simple, however templates and prebuilt student user classes can be found with a simple search.
+  Class Templates: https://www.hackerrank.com/challenges/c-class-templates/problem
+  Student Template: https://introcs.cs.princeton.edu/java/32class/Student.java.html
   
-  Module 2: The databases can be integrated starting with a student database. (https://support.office.com/en-ie/article/use-the-students-access-database-template-9b164250-dcc7-4eec-9f4d-9cf3b2715afb) Is a template that can be used to hold student information such as names, classes they are taking, and scheduling preferences.  (https://www.microsoftaccessexpert.com/Microsoft-Access-Class-Database.aspx) Has space to hold classes and their respective information.
+  Module 2: The databases
+  The databases can be integrated starting with a student database. (https://support.office.com/en-ie/article/use-the-students-access-database-template-9b164250-dcc7-4eec-9f4d-9cf3b2715afb) Is a template that can be used to hold student information such as names, classes they are taking, and scheduling preferences.  (https://www.microsoftaccessexpert.com/Microsoft-Access-Class-Database.aspx) Has space to hold classes and their respective information.
   
-  Module 3: (https://watermark.silverchair.com/8-4-331.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAj8wggI7BgkqhkiG9w0BBwagggIsMIICKAIBADCCAiEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMqkvXqOIBWN6Gb3OCAgEQgIIB8ko04RqLWhjZJNB1pNa_h8dTuf4dbFkRP2ZKJNyDUtqIhzewHF5Z_zU6dTGztl3giR3drXN1t9114O0SqzL6dA_H1EPDKnSC9Qj9KXo5Z3NFHpVqmCDwWu6qGnYk8L4V9LWKtOZZ2obv19CHZsRaA-ZIIzZCaeMZhwQCtW9kvxkVduLDCh-YRSOeCg7JdpilAy4u6IuASGmEOFi4iucDLw5EmlUk_B7XSpuiQRca__Q6zdfCKSzgNMx4LuLlbVOHztIm_BjLN5Dn1XC1RuQK9kivC_0Cm4b7remH6yqMXKffP6mfhQZZ9-IRORYseeJye7xgaiJzTuv1Hupopn5jS6hn0OL5joN_zbvhm2LAmIlZfYPIynThfnAlHKQAOMuYBNh5eiS6xD0s4mGT8ES57Umf6D48_-xhdjWWkAYa7Ye7zPg9dAII2jfGEI0ix_7ONDQ8Q16HqXPob-ACN1egK67Uh3lqu92agzt56JCsUDbrKpP-ZpmntqZyXq4ckWlMa1_Q5isJz41zvanhC5o-vIXtnXjTq5VN484LhMSmH8EwOQq7__V4Pc3bJ39DjDKnRJcCe_ytR68AHtP0GJ1Wyq4Gi2x0WjrFMqjGwf-iyUkAzT8NnshTp3pA9gbjFUA0yqX1oY-h57dSOzt-r7eIgz3scA)
+  Module 3: Functionality and Algorithms
+  (https://watermark.silverchair.com/8-4-331.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAj8wggI7BgkqhkiG9w0BBwagggIsMIICKAIBADCCAiEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMqkvXqOIBWN6Gb3OCAgEQgIIB8ko04RqLWhjZJNB1pNa_h8dTuf4dbFkRP2ZKJNyDUtqIhzewHF5Z_zU6dTGztl3giR3drXN1t9114O0SqzL6dA_H1EPDKnSC9Qj9KXo5Z3NFHpVqmCDwWu6qGnYk8L4V9LWKtOZZ2obv19CHZsRaA-ZIIzZCaeMZhwQCtW9kvxkVduLDCh-YRSOeCg7JdpilAy4u6IuASGmEOFi4iucDLw5EmlUk_B7XSpuiQRca__Q6zdfCKSzgNMx4LuLlbVOHztIm_BjLN5Dn1XC1RuQK9kivC_0Cm4b7remH6yqMXKffP6mfhQZZ9-IRORYseeJye7xgaiJzTuv1Hupopn5jS6hn0OL5joN_zbvhm2LAmIlZfYPIynThfnAlHKQAOMuYBNh5eiS6xD0s4mGT8ES57Umf6D48_-xhdjWWkAYa7Ye7zPg9dAII2jfGEI0ix_7ONDQ8Q16HqXPob-ACN1egK67Uh3lqu92agzt56JCsUDbrKpP-ZpmntqZyXq4ckWlMa1_Q5isJz41zvanhC5o-vIXtnXjTq5VN484LhMSmH8EwOQq7__V4Pc3bJ39DjDKnRJcCe_ytR68AHtP0GJ1Wyq4Gi2x0WjrFMqjGwf-iyUkAzT8NnshTp3pA9gbjFUA0yqX1oY-h57dSOzt-r7eIgz3scA)
   This above link contains lots of useful information on how college scheduling works.  Taking from this document could be a solid foundation for our scheduling algorithms.
+  This class preference algorithm can be used as either a template for a custom algorithm or could be used in piece or in whole directly. 
+  https://stackoverflow.com/questions/16347801/scheduling-matching-preference-algorithm
+  
+  
+  The programmer’s final task is to configure all these different parts to go together. Here, the programmer maps the variables of the classes to the databases so that the classes can call information from them. In the class, they can also plug in the algorithms found and use them. Most likely the variables will have to be renamed to fit the program but that is a small change. Finally, the prebuilt GUI can be linked in the main function of the file to display the inputs nicer. Overall the programmer did very little coding but has a fully functional CURSE program by integrating other modules and configuring them together. 
   
